@@ -1,0 +1,157 @@
+
+@font-face{
+	font-family: 'Monserrat Bold';
+	src: url("../fonts/Montserrat-Bold.ttf")
+}
+
+@font-face{
+	font-family: 'Monserrat Regular';
+	src:url("../fonts/Montserrat-Regular.ttf")
+}
+
+
+
+:root{
+	--fondo-iconos:#151821;
+	--fondo-footer:#040406;
+	--color-naranja:#EEB54E;
+	--color-titulos:#edeff5;
+	--color-contenido:#7e8394;
+	--color-footer:#6c6c6c;
+}
+
+
+body{
+	font-family: 'Monserrat Regular', sans-serif;
+	font-size: 17px;
+	font-weight: 300;
+}
+
+
+header{
+	position: absolute;
+	width: 100%;
+	background-color: #fff;
+}
+.section{
+	padding:10% 0;
+	min-height:300px;
+}
+
+
+.header-area.sticky {
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);*/
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+	transition: 0.3s all ease;
+}
+.header-area.sticky .navbar-light{
+	background-color: #fff !important;
+}
+
+
+#hero{
+	background-color: #09090d;
+}
+
+#hero h1{
+	color: var(--color-naranja);
+	font-size: 22px;
+
+}
+
+#hero p{
+	color: var(--color-contenido);
+	
+}
+
+#hero h2{
+	color: var(--color-titulos);
+	font-family: 'Monserrat Bold';
+	font-size: 60px;
+	
+}
+
+
+.btn-swape{
+	background-color: #181a1f;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 15px 30px;
+	font-weight: 300;
+	font-family: 'Monserrat Bold';
+	border-radius: 50px;
+}
+.btn-swape:hover{
+	background-color: var(--color-naranja);
+	color: #fff;
+}
+
+.titulos{
+	color: var(--color-titulos);
+	font-family: 'Monserrat Bold';
+	font-size: 40px;
+	font-weight: 300;
+}
+
+#features{
+	background-color: #101117;
+	padding-top: 60px 0;
+
+}
+
+#features i{
+	color: var(--color-naranja);
+	font-size: 50px;
+
+
+}
+
+.contenido{
+	color: var(--color-contenido);
+	font-size: 15px;
+	font-family: 'Monserrat Bold';
+	font-weight: 200;
+}
+
+
+#features p,h3,h4{
+	text-align: center;
+}
+
+#features h5{
+	color: var(--color-titulos);
+	font-size: 20px;
+	font-family: 'Monserrat Bold';
+	font-weight: 300;
+}
+
+#why{
+background-color: #101621;
+}
+
+#why p{
+color: var(--color-contenido);
+font-size: 15px;
+font-family: 'Monserrat Bold';
+font-weight: 200;
+text-align: right;
+}
+
+.subtitulos{
+color: var(--color-titulos);
+font-size: 20px;
+font-family: 'Monserrat Bold';
+font-weight: 300;
+text-align: right;
+}
+
+#why i{
+color: var(--color-naranja);
+font-size: 50px;
+
+}
+
